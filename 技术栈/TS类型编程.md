@@ -16,8 +16,8 @@
 
 ```ts
 let arr1:[number,string]=[1,'222'] //ok
-let arr1:[number,string]=[1,'222'，3] //error
-let arr1:[number,string]=['1','222'] //error
+let arr2:[number,string]=[1,'222',3] //error
+let arr3:[number,string]=['1','222'] //error
 ```
 
 ## 枚举
