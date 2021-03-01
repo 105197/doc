@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="feb5083e-09d9-4025-a157-e41c496b1e8a" name="Default Changelist" comment="[初始化]">
+    <list default="true" id="feb5083e-09d9-4025-a157-e41c496b1e8a" name="Default Changelist" comment="[文档] 前端文档的添加">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -65,6 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1614069332657</updated>
       <workItem from="1614069333861" duration="1746000" />
+      <workItem from="1614224695662" duration="1836000" />
+      <workItem from="1614248641600" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="[初始化]">
       <created>1614069455669</created>
@@ -73,7 +76,35 @@
       <option name="project" value="LOCAL" />
       <updated>1614069455669</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[初始化]">
+      <created>1614224736852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614224736852</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[文档] 前端文档的添加">
+      <created>1614238735341</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614238735341</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[文档] 前端文档的添加">
+      <created>1614248675170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614248675170</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[文档] 前端文档的添加">
+      <created>1614248846479</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1614248846479</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,15 +120,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[初始化]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[初始化]" />
+    <MESSAGE value="[文档] 前端文档的添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="[文档] 前端文档的添加" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="351" key="Vcs.Push.Dialog.v2" timestamp="1614071409498">
+    <state x="560" y="351" key="Vcs.Push.Dialog.v2" timestamp="1614248849515">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="560" y="351" key="Vcs.Push.Dialog.v2/1920.0.1440.900/0.0.1920.1200@0.0.1920.1200" timestamp="1614071409498" />
+    <state x="560" y="351" key="Vcs.Push.Dialog.v2/1920.0.1440.900/0.0.1920.1200@0.0.1920.1200" timestamp="1614248849515" />
   </component>
 </project>
