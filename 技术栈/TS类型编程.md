@@ -443,3 +443,41 @@ useEffect(()=>{
 
 * `as`
 断言只有一个规则，只要类型中存在一样的属性（方法）时，都可以兼容对方(可以用继承来说明)，虽然ts编译的时候不会报错，但如果传入的值没有断言后的属性，则会报错。
+
+## 编辑遇到一些特殊类型
+
+* 使用`useForm`来生成`form`使用`FormInstance<T>` 
+
+* `style`:`CSSProperties`
+  
+* `className`:`string`
+  
+* 序列化
+  
+```ts
+function useDictDefault<T extends readonly DictDefaultEnum[]>(typeList: T): { [P in keyof T]: string } {
+    return useAsyncMemo(
+        typeList.map(() => []),
+        async () => {
+            const dictList = await dictApi.default()
+            return typeList.map(type => {
+                return dictList.find((item: DictDefault) => item.apiKey === type)?.dictCode
+            }) as any
+        },
+    )
+}
+
+function useAsyncState<T>(init: T, fetcher: () => Promise<T>): [T, (val: T) => void] {
+    const [val, setVal] = useState<T>(init)
+    useMount(async () => {
+        setVal(await fetcher())
+    })
+    return [val, setVal]
+}
+
+function useAsyncMemo<T>(init: T, fetcher: () => Promise<T>) {
+    const [val] = useAsyncState<T>(init, fetcher)
+    return val
+}
+
+```
